@@ -42,6 +42,8 @@ CVIOLETBG2 = '\33[105m'
 CBEIGEBG2  = '\33[106m'
 CWHITEBG2  = '\33[107m'
 
+# GitHub test modification commit
+
 def colorChar(value):
     returnVal=""
     if (value=='Y'):
