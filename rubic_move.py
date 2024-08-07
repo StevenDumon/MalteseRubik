@@ -129,7 +129,7 @@ def rotate(cube, face, direction):
             F1[4][4], F1[5][4], F1[6][4], F1[7][4] = F3[0][4], F3[1][4], F3[2][4], F3[3][4]         # 8. top half F3 to bottom half F1
 
             F3[0][3], F3[1][3], F3[2][3], F3[3][3] = temp[4][3], temp[5][3], temp[6][3], temp[7][3] # 9. temp to top half F3
-            F3[0][4], F3[1][4], F3[2][4], F3[3][4] = temp[4][3], temp[5][3], temp[6][3], temp[7][3] # 9. temp to top half F3
+            F3[0][4], F3[1][4], F3[2][4], F3[3][4] = temp[4][4], temp[5][4], temp[6][4], temp[7][4] # 9. temp to top half F3
 
             # Rotate face F2, counterclockwise
             for i in range(rows // 2): # // = div, integer division
